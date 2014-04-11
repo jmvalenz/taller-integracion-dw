@@ -44,7 +44,10 @@ gem 'bson_ext'
 # gem 'unicorn'
 
 # Use Capistrano for deployment
-gem 'capistrano', group: :development
+gem 'capistrano'
+gem 'capistrano-rails'
+gem 'capistrano-rvm'
+gem 'capistrano-bundler'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
